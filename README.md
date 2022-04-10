@@ -101,7 +101,7 @@ Clone this project
 
 ```bash
 > pkg install git
-> git clone https://github.com/adimas999/telegram-bot
+> git clone https://github.com/sidhaniedotcom/TB
 > cd Btelegram-bot
 ```
 
