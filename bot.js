@@ -26,7 +26,7 @@ const axios = require('axios')
 
 /*********[ Apikey ]*********/
 let lolhuman = '99ecdb09b1053d90fbc15d56'
-let iteach = 'Ganti pakai apikey kalian' //silahkan login/register di https://api.i-tech.id untuk mendapatkan apikey
+let iteach = 'o1GMvzQK76sO4i0duDPW2SQerW86UcI6' //silahkan login/register di https://api.i-tech.id untuk mendapatkan apikey
 /***************************/
 
 const helpMessage = `Katakan sesuatu kepada saya\n/start - untuk memulai bot\n/menu - untuk menampilkan list menu`;
