@@ -25,7 +25,6 @@ const bot = new Telegraf('5093811483:AAFSlfvyolCLYujDl_nhdVuChVwckOFSACs')
 const axios = require('axios')
 
 /*********[ Apikey ]*********/
-let lolhuman = '99ecdb09b1053d90fbc15d56'
 let iteach = 'o1GMvzQK76sO4i0duDPW2SQerW86UcI6' //silahkan login/register di https://api.i-tech.id untuk mendapatkan apikey
 /***************************/
 
@@ -58,7 +57,7 @@ bot.hears('/', (ctx) => {
 })
 
 bot.hears('Kembali Ke Menu Utama', (ctx) => {
-    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : MrDevils\n┣⊱ Whatsapp : 85939888897\n┣⊱ Github : github.com/adimas999\n┣⊱ IG : adimas_sahadoet\n┣⊱ Owner : MrDevils\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
+    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : Sidhanie\n┣⊱ Whatsapp : 85939888897\n┣⊱ Github : github.com/sidhaniedotcom\n┣⊱ IG : sidhaniedotcom\n┣⊱ Owner : Sidhanie\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage,
     {
@@ -88,7 +87,7 @@ bot.hears('Kembali Ke Menu Utama', (ctx) => {
 })
 
 bot.action('menu', ctx => {
-    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : MrDevils\n┣⊱ Whatsapp : 85939888897\n┣⊱ Github : github.com/adimas999\n┣⊱ IG : adimas_sahadoet\n┣⊱ Owner : MrDevils\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
+    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : Sidhanie\n┣⊱ Whatsapp : 85813899648\n┣⊱ Github : github.com/Sidhaniedotcom\n┣⊱ IG : Sidhaniedotcom\n┣⊱ Owner : Sidhanie\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage,
     {
