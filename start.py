@@ -20,7 +20,7 @@ print("""
     ██╔══██╗██║░░██║░░░██║░░░
     ██████╦╝╚█████╔╝░░░██║░░░
     ╚═════╝░░╚════╝░░░░╚═╝░░░
-      ░ ░\x1b[00m\033[041m TERMUX TELEGRAM BOT MrDevils  \033[00m\x1b>
+      ░ ░\x1b[00m\033[041m TERMUX TELEGRAM BOT Sidhanie  \033[00m\x1b>
         ░ ░   ░   ░    ░ ░   ░    ░   ░   ░\x1b[00m
 """)
 m('\x1b[00m\033[041m Sedang Memulai...  \033[00m')
